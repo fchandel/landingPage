@@ -8,11 +8,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Landing Page</title>
 
+
   </head>
   <body>
     <header>
-      <a href="#para">
-      <div class="hook">
+      <a href="#button_area">
+      <div class="hook" onclick="buttons()">
         <h1>Hello!</h1>
         <h3>Its nice to finally meet you</h3>
       </div>
@@ -20,12 +21,16 @@
 
     </header>
 
-    <div id="butttons">
-      
+    <div id="button_area">
+      <div id="inside_button">
+        <button id="button">About</button>
+        <button id="button">My Work</button>
+        <button id="button">Contact</button>
+      </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
     <script src="js/bootstrap.min.js"></script>
+    <script src="buttons.js"></script>
   </body>
+
 </html>
