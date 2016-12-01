@@ -1,0 +1,46 @@
+header {
+  background-image: url("wallpaper/2.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-family: sans-serif;
+
+}
+
+.hook {
+  background-color: transparent;
+  padding: 10px;
+  border: 4px solid white;
+  border-radius: 1px;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+
+.hook :hover {
+
+}
+
+#para {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+
+}
+p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px auto;
+  max-width: 600px;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
