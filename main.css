@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
 body {
   background-color: black;
 }
 
 #header2{
-=======
+
+}
 
 #button_area{
   display: none;
@@ -41,7 +41,6 @@ body {
 
 
 header {
->>>>>>> be165445fe1352eedd6f6e8130258a4e6f5e3d45
   background-image: url("2.png");
   height: 70vh;
   width: 450px;
