@@ -1,6 +1,67 @@
-header {
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+
+#header2{
   background-image: url("2.png");
-  height: 100vh;
+  height: 70vh;
+  width: 450px;
+  margin: 0 auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  font-family: sans-serif;
+  border: 3px solid white;
+}
+#about{
+  display: none;
+  height: auto;
+  margin: 10px auto;
+  width: 450px;
+  max-width: 50%;
+  background-color: white;
+}
+
+#buttonArea{
+  max-height: 12vh;
+  background-color: #181818;
+}
+
+#inside_button{
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#button{
+  color: white;
+  margin: 18px auto;
+  width: 16%;
+  border: 3px solid white;
+  background-color: transparent;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+
+#button:hover {
+  color:black;
+  background-color: white;
+}
+
+
+
+
+#header1 {
+  background-image: url("2.png");
+  height: 88vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -11,7 +72,7 @@ header {
 
 }
 
-.hook {
+#hook {
   background-color: transparent;
   padding: 10px;
   border: 4px solid white;
@@ -22,7 +83,7 @@ a {
   text-decoration: none;
 }
 
-.hook :hover {
+#hook :hover {
 
 }
 
@@ -38,9 +99,4 @@ p{
   margin: 0px auto;
   max-width: 600px;
 
-}
-
-*{
-  margin: 0;
-  padding: 0;
 }

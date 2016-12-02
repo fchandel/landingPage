@@ -3,29 +3,40 @@
   <head>
     <link href="main.css" rel="stylesheet">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Landing Page</title>
 
+
+
   </head>
   <body>
-    <header>
-      <a href="#para">
-      <div class="hook">
+    <header id="header1">
+      <a href="#buttonArea">
+      <div id="hook">
         <h1>Hello!</h1>
         <h3>Its nice to finally meet you</h3>
       </div>
     </a>
-
     </header>
 
-    <div id="butttons">
-      
+
+    <div id="buttonArea">
+      <div id="inside_button">
+        <button id="button" onclick="buttons()">About</button>
+        <button id="button" onclick="buttons()">My Work</button>
+        <button id="button" onclick="buttons()">Contact</button>
+      </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+
+    <div id="about">
+      <header id="header2">
+      <h1>Farhan Chandel</h1>
+      <h3> Software Systems Major</h3>
+    </header>
+    </div>
+
+
+    <script src="buttons.js"></script>
   </body>
 </html>
