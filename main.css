@@ -7,9 +7,12 @@ body {
 }
 .middle{
   margin: 10px auto;
-  width: 50%;
+  width: 100%;
+  height: auto;
 }
 ul {
+  width: 50%;
+  margin: 0px auto;
   list-style: none;
   height: 3rem;
   display: flex;
@@ -19,7 +22,7 @@ ul {
 }
 li {
   border-radius: 4px;
-  padding: 1rem 2rem;
+  padding: 1rem 4.0rem;
   margin: auto auto;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
