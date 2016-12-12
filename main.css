@@ -22,14 +22,13 @@ ul {
 }
 li {
   border-radius: 4px;
-  padding: 1rem 4.0rem;
   margin: auto auto;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 li:hover {
+  : red;
 
-  background-color: #eae7e733;
 }
 .line:hover{
 
@@ -43,32 +42,7 @@ color: white;
 
 }
 
-#button_area{
-  display: none;
-  max-height: 200px;
-  background-color: black;
-}
 
-#inside_button{
-  margin: 0 auto;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-}
-
-#button{
-  color: white;
-  margin: 20px auto;
-  width: 180px;
-  border: 3px solid white;
-  background-color: black;
-  padding: 10px 40px;
-}
-
-#button:hover {
-  color:black;
-  background-color: white;
-}
 
 #header2 {
   background-image: url("2.png");
@@ -94,7 +68,7 @@ color: white;
 }
 
 #buttonArea{
-  max-height: 12vh;
+  max-height: 10vh;
   background-color: #181818;
 }
 
@@ -105,20 +79,6 @@ color: white;
   flex-direction: row;
 }
 
-#button{
-  color: white;
-  margin: 18px auto;
-  width: 16%;
-  border: 3px solid white;
-  background-color: transparent;
-  padding: 10px 0px;
-  border-radius: 5px;
-}
-
-#button:hover {
-  color:black;
-
-}
 
 #header1 {
   background-image: url("2.png");
@@ -139,16 +99,17 @@ color: white;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
   border-radius: 1px;
+  transition:all 1s ease;
 }
 a {
   color:white;
   text-decoration: none;
 }
-
-#hook :hover {
-
+a:hover {
+  color: #0f8bf5;
+  text-decoration: underline;
+  transition: all .5s ease;
 }
-
 #para {
   height: 100%;
   width: 100%;
