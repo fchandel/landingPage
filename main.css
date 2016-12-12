@@ -108,7 +108,7 @@ a {
 a:hover {
   color: #0f8bf5;
   text-decoration: underline;
-  transition: all .5s ease;
+  transition: all .25s ease;
 }
 #para {
   height: 100%;
