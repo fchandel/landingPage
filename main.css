@@ -118,7 +118,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #0f8bf5;
+  
   text-decoration: underline;
   transition: all .25s ease;
 }
