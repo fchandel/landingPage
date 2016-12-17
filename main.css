@@ -5,6 +5,84 @@
 body {
   background-color: black;
 }
+#title{
+  display:none;
+  z-index: 0;
+  justify-content: center;
+  
+}
+#hook {
+  visibility: visible;
+  background-color: transparent;
+  padding: 10px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-radius: 1px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#port {
+  max-height: 250px;
+  max-width: 880px;
+  display: inline-flex;
+  overflow: auto;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    max-height: 150%;
+
+  }
+
+.modal {
+    display: none;/* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+img {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+img:hover {
+  opacity: 0.7;
+}
+
+
+
 .middle{
   margin: 10px auto;
   width: 100%;
@@ -105,14 +183,6 @@ color: white;
 
 }
 
-#hook {
-  background-color: transparent;
-  padding: 10px;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  border-radius: 1px;
-  transition: all 1s ease;
-}
 a {
   color:white;
   text-decoration: none;
