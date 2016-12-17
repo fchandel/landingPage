@@ -11,7 +11,7 @@ body {
   height: auto;
 }
 ul {
-  width: 75%;
+  width: 50%;
   margin: 0px auto;
   list-style: none;
   height: 3rem;
@@ -19,6 +19,18 @@ ul {
   border-right: 1px solid white;
   border-left: 1px solid white;
   border-radius: 7px;
+}
+@media only screen and (max-device-width: 480px) {
+  ul {
+    width: 75%;
+    margin: 0px auto;
+    list-style: none;
+    height: 3rem;
+    display: flex;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 7px;
+  }
 }
 li {
   border-radius: 4px;
