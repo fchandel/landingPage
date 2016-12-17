@@ -117,8 +117,11 @@ a {
   color:white;
   text-decoration: none;
 }
+a:active {
+  color: white;
+}
 a:hover {
-  
+
   text-decoration: underline;
   transition: all .25s ease;
 }
