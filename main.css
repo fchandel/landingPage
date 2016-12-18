@@ -43,11 +43,11 @@ body {
         width: 100%;
     }
     #port {
-      max-height: 250px;
+      max-height: auto;
       max-width: auto;
     }
     #hook {
-      max-width: 100%;
+      max-width: 99%;
     }
     img {
       width: auto;
