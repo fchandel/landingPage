@@ -4,7 +4,7 @@ function about() {
 }
 
 function Portfo() {
-  document.getElementById("hook").innerHTML= "<div id='port'><img id='myImg' src='salon.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg2' src='logo.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg3' src='biz.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg4' src='PosterMockup.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg5' src='square.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg6' src='square.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg7' src='square.jpg' width='200' height = '200' onclick='mod(this)'></div>";
+  document.getElementById("hook").innerHTML= "<div id='port'><img id='myImg' src='assets/portfolio/salon.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg2' src='assets/portfolio/logo.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg3' src='assets/portfolio/biz.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg4' src='assets/portfolio/PosterMockup.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg5' src='assets/portfolio/square.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg6' src='assets/portfolio/square.jpg' width='200' height = '200' onclick='mod(this)'><img id='myImg7' src='assets/portfolio/square.jpg' width='200' height = '200' onclick='mod(this)'></div>";
 
 
 }

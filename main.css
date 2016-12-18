@@ -9,7 +9,7 @@ body {
   display:none;
   z-index: 0;
   justify-content: center;
-  
+
 }
 #hook {
   visibility: visible;
@@ -27,6 +27,12 @@ body {
   max-width: 880px;
   display: inline-flex;
   overflow: auto;
+}
+@media only screen and (max-width: 700px) {
+  #port {
+    max-height: 250px;
+    max-width: 100%;
+  }
 }
 .close {
     position: absolute;
