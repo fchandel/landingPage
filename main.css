@@ -112,11 +112,13 @@ ul {
     max-width: auto;
   }
   #hook {
-    max-width: 99%;
+    max-width: 59%;
   }
   img {
     /*width: 200px;
     height: auto;*/
+    height: auto;
+    width:auto;
   }
 }
 
