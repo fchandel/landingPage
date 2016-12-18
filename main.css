@@ -117,8 +117,8 @@ ul {
   img {
     /*width: 200px;
     height: auto;*/
-    height: auto;
-    width:auto;
+    height: 200px;
+    width:200px;
   }
 }
 
