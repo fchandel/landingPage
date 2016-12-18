@@ -23,15 +23,6 @@ body {
   display: inline-flex;
   overflow: auto;
 }
-@media only screen and (max-width: 700px) {
-  #port {
-    max-height: 250px;
-    max-width: auto;
-  }
-  #hook {
-    max-width: 100%;
-  }
-}
 .close {
     position: absolute;
     top: 15px;
@@ -50,6 +41,17 @@ body {
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
+    }
+    #port {
+      max-height: 250px;
+      max-width: auto;
+    }
+    #hook {
+      max-width: 100%;
+    }
+    img {
+      width: auto;
+      height: auto;
     }
 }
 .modal-content {
