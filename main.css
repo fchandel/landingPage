@@ -104,6 +104,8 @@ ul {
     border-right: 1px solid white;
     border-left: 1px solid white;
     border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   #port {
     max-height: auto;
