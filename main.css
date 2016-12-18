@@ -33,6 +33,9 @@ body {
     max-height: 250px;
     max-width: 98vw;
   }
+  #hook {
+    max-width: 100%;
+  }
 }
 .close {
     position: absolute;
