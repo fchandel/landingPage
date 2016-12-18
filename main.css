@@ -42,17 +42,7 @@ body {
     .modal-content {
         width: 100%;
     }
-    #port {
-      max-height: auto;
-      max-width: auto;
-    }
-    #hook {
-      max-width: 99%;
-    }
-    img {
-      width: auto;
-      height: auto;
-    }
+
 }
 .modal-content {
     margin: auto;
@@ -104,7 +94,7 @@ ul {
   border-left: 1px solid white;
   border-radius: 7px;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 680px) {
   ul {
     width: 75%;
     margin: 0px auto;
@@ -115,7 +105,19 @@ ul {
     border-left: 1px solid white;
     border-radius: 7px;
   }
+  #port {
+    max-height: auto;
+    max-width: auto;
+  }
+  #hook {
+    max-width: 99%;
+  }
+  img {
+    width: auto;
+    height: auto;
+  }
 }
+
 li {
   border-radius: 4px;
   margin: auto auto;
