@@ -113,7 +113,7 @@ ul {
     max-width: 99%;
   }
   img {
-    width: inherit;
+    width: 200px;
     height: auto;
   }
 }
